@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  line-height: 1.5;
 }
 
 .wrapper {
@@ -18,7 +27,7 @@ header {
   width: 100%;
   max-width: 1440px;
   height: 70px;
-  background: #FFFFFF;
+  background: #ffffff;
   z-index: 100;
 }
 header .wrapper {
@@ -40,11 +49,12 @@ header .wrapper ul li a {
 }
 header .wrapper button {
   background-color: rgb(78, 19, 47);
-  color: #FFFFFF;
-  padding: 10px 20px;
+  color: #ffffff;
+  padding: 13px 32px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .hero {
@@ -71,21 +81,22 @@ header .wrapper button {
 .hero .content h1 {
   font-size: 36px;
   font-family: DM Serif Display;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 .hero .content p {
   font-size: 20px;
-  color: #D9D9D9;
+  color: #d9d9d9;
   text-align: center;
 }
 .hero .content button {
   background-color: rgb(78, 19, 47);
-  color: #FFFFFF;
-  padding: 10px 20px;
+  color: #ffffff;
+  padding: 13px 32px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
 }
 
 .about {
@@ -150,7 +161,7 @@ header .wrapper button {
 }
 .services h3 {
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,7 +173,7 @@ header .wrapper button {
 }
 .services h2 {
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .services .cards {
@@ -182,7 +193,7 @@ header .wrapper button {
   gap: 10px;
 }
 .services .cards .card i {
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 .services .cards .card img {
   width: 100%;
@@ -190,11 +201,11 @@ header .wrapper button {
 }
 .services .cards .card h3 {
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .services .cards .card p {
   font-size: 16px;
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
 .gallery {
@@ -252,23 +263,24 @@ header .wrapper button {
 }
 .booking .content p {
   font-size: 16px;
-  color: #D9D9D9;
+  color: #d9d9d9;
   width: 500px;
   line-height: 24px;
   font-size: 16px;
 }
 .booking .content button {
   background-color: rgb(78, 19, 47);
-  color: #FFFFFF;
-  padding: 10px 20px;
+  color: #ffffff;
+  padding: 13px 32px;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
 }
 
 footer {
   background: rgb(78, 19, 47);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 footer .contents {
   width: 100%;
@@ -288,8 +300,8 @@ footer .contents ul li {
 }
 footer .contents ul li a {
   text-decoration: none;
-  color: #FFFFFF;
-  color: #D9D9D9;
+  color: #ffffff;
+  color: #d9d9d9;
 }
 footer .contents .social-medias {
   display: flex;
@@ -353,17 +365,18 @@ footer .contents .social-medias img {
   }
   .booking .content p {
     font-size: 16px;
-    color: #D9D9D9;
+    color: #d9d9d9;
     width: unset;
     line-height: 24px;
     font-size: 16px;
   }
   .booking .content button {
     background-color: rgb(78, 19, 47);
-    color: #FFFFFF;
-    padding: 10px 20px;
+    color: #ffffff;
+    padding: 13px 32px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */
