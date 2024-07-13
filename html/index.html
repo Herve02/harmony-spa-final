@@ -1,54 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../statics/css/style.css" />
     <title>Document</title>
     <link rel="stylesheet" href="../statics/css/style.css">
+
 </head>
 <body>
     <header>
         <div class="wrapper">
             <div class="logo"><img src="../statics/images/logo.svg" alt=""></div>
-            <ul>
+            <ul id="menus">
                 <li><a href="">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Treatments</a></li>
                 <li><a href="#contacts">Contacts</a></li>
             </ul>
             <a href="https://wa.me/"><button>Book Now</button></a>
+            <img src="../statics/images/menu-11-stroke-rounded.svg" id="menubar"  alt="">
         </div>
     </header>
     <!-- hero section starts here -->
     <section class="wrapper hero">
-        <div class="content">  
-            <h1>Luxurious Salon & Relaxation Spa</h1>          
-            <p>
-                Discover your sanctuary at Harmony Spa. Immerse in relaxation, rejuvenate with luxurious treatments, and leave revitalized. Experience tranquility and luxury.
-            </p>
-            <a href=""><button>Our Treatments</button></a>
-        </div>
+      <div class="content">
+        <h1>Luxurious Salon & Relaxation Spa</h1>
+        <p>
+          Discover your sanctuary at Harmony Spa. Immerse in relaxation,
+          rejuvenate with luxurious treatments, and leave revitalized.
+          Experience tranquility and luxury.
+        </p>
+        <a href=""><button>Our Treatments</button></a>
+      </div>
     </section>
         <!--about se tion starts here  -->
         <section class="wrapper about" id="about">
             <div class="images">
-                <img src="../statics/images/about-img-1.png" alt="">
-                <img src="../statics/images/about-img-2.png" alt="">
-                <img src="../statics/images/about-img-3.png" alt="">
+                <div class="img">
+                    <img src="../statics/images/about-img-1.png" alt="">
+                </div>
+                <div class="img">
+                    <img src="../statics/images/about-img-2.png" alt="">
+                </div>
+                <div class="img">
+                    <img src="../statics/images/about-img-3.png" alt="">
+                </div>
+                <!-- <img src="../statics/images/about-img-2.png" alt="">
+                <img src="../statics/images/about-img-3.png" alt=""> -->
             </div>
             <div class="content">
                 <h3><img src="../statics/images/Line 1.svg" alt="">About</h3>
                 <h2>Who we are</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.               
+                    We are  dedicated to providing a serene and relaxing environment where your well-being is our top priority.We are delighted to invite you to experience the rejuvenating and therapeutic services at Harmony spa
+
+                    Our team of professional therapists are not only highly trained but also deeply passionate about delivering personalized treatments tailored to your specific needs. Whether you seek relief from stress, chronic pain, or simply a moment of tranquility, our comprehensive range of therapeutic services is designed to restore balance and harmony to your body and mind.
+              
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                    At Harmony spa we combine the latest techniques with a compassionate touch to ensure you leave feeling refreshed and revitalized. Your comfort and satisfaction are paramount to us, and we strive to create a truly exceptional experience for every guest.
                 </p>
+                <i>We look forward to welcoming you and providing a sanctuary where you can unwind and heal.</i>
             </div>
         </section>
 
-        <!-- servises section atarts -->
+        <!-- services section starts -->
 
         <section class="wrapper services" id="services">
             <h3><svg width="53" height="3" viewBox="0 0 53 3" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -91,48 +114,54 @@
                         Waxing is the process of hair removal from the root by using a covering of a sticky substance, such as wax, to adhere to body hair,
                     </p>  
                 </div>
-            </div>         
+
+            </div>  
+            <a href=""><button>view menu <img src="../statics/images/Arrow 1.svg" alt=""></a>  </button">     
         </section>
 
-        <section class="wrapper gallery" id ="gallery">
-            <h2>Gallery</h2>
-            <div class="images">
-                <img src="../statics/images/harmony-stone.jpg" alt="" srcset="">
-                <img src="../statics/images/about-img-1.png" alt="" srcset="">
-                <img src="../statics/images/stone-massage.jpeg" alt="" srcset="">
-                <img src="../statics/images/about-img-1.png" alt="" srcset="">
-                <img src="../statics/images/service2.png" alt="" srcset="">
-                <img src="../statics/images/about-img-1.png" alt="" srcset="">
-                <img src="../statics/images/towel.jpg" alt="" srcset="">
-                <img src="../statics/images/about-img-1.png" alt="" srcset="">
-            </div>
-        </section>
+    <section class="wrapper gallery" id="gallery">
+      <h2>Gallery</h2>
+      <div class="images">
+        <img src="../statics/images/harmony-stone.jpg" alt="" srcset="" />
+        <img src="../statics/images/about-img-1.png" alt="" srcset="" />
+        <img src="../statics/images/stone-massage.jpeg" alt="" srcset="" />
+        <img src="../statics/images/about-img-1.png" alt="" srcset="" />
+        <img src="../statics/images/service2.png" alt="" srcset="" />
+        <img src="../statics/images/about-img-1.png" alt="" srcset="" />
+        <img src="../statics/images/towel.jpg" alt="" srcset="" />
+        <img src="../statics/images/about-img-1.png" alt="" srcset="" />
+      </div>
+    </section>
 
-        <section class="wrapper booking" id="book">
-           <div class="content">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-            </p>
+    <section class="wrapper booking" id="book">
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi
+        </p>
 
-            <a href="https://wa.me/+250785993838"><button>Book A Spot</button></a>
-           </div>
-        </section>
+        <a href="https://wa.me/+250785993838"><button>Book A Spot</button></a>
+      </div>
+    </section>
 
-        <footer class="wrapper">
-            <div class="contents">
-                <div class="harmony">
-                    <div class="logo"><img src="../statics/images/f-logo.svg" alt="" srcset=""></div>
-                </div>
+    <footer class="wrapper">
+      <div class="contents">
+        <div class="harmony">
+          <div class="logo">
+            <img src="../statics/images/f-logo.svg" alt="" srcset="" />
+          </div>
+        </div>
 
-                <div class="important-links">
-                    <h3>Important links</h3>
-                    <ul>
-                        <li><a href=".hero">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Treatments</a></li>
-                        <li><a href="contacts">Contacts</a></li>
-                    </ul>
-                </div>
+        <div class="important-links">
+          <h3>Important links</h3>
+          <ul>
+            <li><a href=".hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Treatments</a></li>
+            <li><a href="contacts">Contacts</a></li>
+          </ul>
+        </div>
 
                 <div class="social-medias">
                     <img src="../statics/images/IG.svg" alt="" srcset="">
@@ -141,5 +170,21 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            var menus = document.getElementById("menus");
+            menus.style.right = "-100%";
+            var menubar = document.querySelector("#menubar");
+            menubar.onclick = function(){
+                if(menus.style.right == "-100%"){
+                    menus.style.right = "0";
+                }
+                else{
+                    menus.style.right = "-100%";
+                }
+            }
+
+       
+        </script>
 </body>
 </html>
