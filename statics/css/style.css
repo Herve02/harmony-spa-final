@@ -514,7 +514,7 @@ footer .contents .social-medias a {
     align-items: center;
     background: #fdfdfd;
     width: 100%;
-    height: 100%;
+    height: 100svh;
     padding: 30px;
     transition: all 0.5s ease-out;
   }
