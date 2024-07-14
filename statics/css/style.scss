@@ -141,11 +141,16 @@ header {
   align-items: center;
   gap: 40px;
   .images {
+    flex: 1;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: stretch;
     gap: 20px;
     // flex: 1;
+    img{
+      width: 100%;
+    }
     img:nth-child(1) {
       grid-row: span 2;
     }
@@ -552,22 +557,22 @@ footer {
     }
   }
 }
-@media (min-width: 768px) and (max-width: 1220px) {
+@media (min-width: 950px) and (max-width: 1144px) {
   .about {
-    // flex-direction: column-reverse;
 
     .images {
       width: 100%;
 
-      .img {
+      img {
         width: 100%;
       }
-      .img:nth-child(1) {
-        margin-top: 50%;
+      img:nth-child(1) {
+        align-self: start;
+        margin-top: 20%;
       }
-      .img:nth-child(2),
-      .img:nth-child(2) {
-        margin-top: 95%;
+      img:nth-child(2),
+      img:nth-child(2) {
+        margin-top: 70%;
       }
     }
   }
@@ -576,4 +581,10 @@ footer {
 .divider {
   @include d-flex();
   gap: 8px;
+}
+
+@media (max-width: 950px){
+  .about{
+    flex-direction: column-reverse;
+  }
 }

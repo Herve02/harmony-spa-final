@@ -134,10 +134,15 @@ header .wrapper button {
   gap: 40px;
 }
 .about .images {
+  flex: 1;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: stretch;
   gap: 20px;
+}
+.about .images img {
+  width: 100%;
 }
 .about .images img:nth-child(1) {
   grid-row: span 2;
@@ -539,19 +544,20 @@ footer .contents .social-medias a {
     gap: 20px;
   }
 }
-@media (min-width: 768px) and (max-width: 1220px) {
+@media (min-width: 950px) and (max-width: 1144px) {
   .about .images {
     width: 100%;
   }
-  .about .images .img {
+  .about .images img {
     width: 100%;
   }
-  .about .images .img:nth-child(1) {
-    margin-top: 50%;
+  .about .images img:nth-child(1) {
+    align-self: start;
+    margin-top: 20%;
   }
-  .about .images .img:nth-child(2),
-  .about .images .img:nth-child(2) {
-    margin-top: 95%;
+  .about .images img:nth-child(2),
+  .about .images img:nth-child(2) {
+    margin-top: 70%;
   }
 }
 .divider {
@@ -559,4 +565,10 @@ footer .contents .social-medias a {
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+@media (max-width: 950px) {
+  .about {
+    flex-direction: column-reverse;
+  }
 }/*# sourceMappingURL=style.css.map */
