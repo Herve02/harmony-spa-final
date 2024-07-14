@@ -18,7 +18,7 @@ html {
 
 img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 body {
@@ -100,8 +100,7 @@ header .wrapper button {
 .hero {
   width: 100%;
   height: min(100vh, 550px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/hero-img-2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-img-2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -304,8 +303,7 @@ header .wrapper button {
   justify-content: center;
   justify-content: space-between;
   gap: 20px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/stone-massage.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stone-massage.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -530,8 +528,7 @@ footer .contents .social-medias a {
   }
   .booking .content {
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../images/stone-massage.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stone-massage.jpeg);
     align-items: center;
     justify-content: center;
     padding-inline: 10px;
@@ -584,4 +581,13 @@ footer .contents .social-medias a {
   .about .images img:nth-child(2) {
     margin-top: 70%;
   }
-} /*# sourceMappingURL=style.css.map */
+}
+@media (max-width: 950px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+  footer .contents {
+    flex-direction: column;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

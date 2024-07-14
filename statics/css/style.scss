@@ -601,4 +601,10 @@ footer {
   .about {
     flex-direction: column-reverse;
   }
+  footer {
+    .contents {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
 }
