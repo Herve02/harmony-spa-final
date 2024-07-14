@@ -484,7 +484,6 @@ footer {
     top: 0 !important;
     right: 0 !important;
     z-index: 200 !important;
-    padding: 30px;
   }
 
   .close {
@@ -517,10 +516,11 @@ footer {
         // right: ;
         right: 0;
         flex-direction: column;
+        align-items: center;
         background: $primary-color;
         width: 100%;
         height: 100%;
-        padding-inline: 10px;
+        padding: 30px;
         transition: all 0.5s ease-out;
       }
     }
