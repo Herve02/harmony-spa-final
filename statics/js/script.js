@@ -6,18 +6,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   menu.addEventListener("click", function (e) {
     navigation.classList.toggle("mobile-nav");
+    document.body.classList.toggle("no-scroll");
   });
 
   close.addEventListener("click", function (e) {
     navigation.classList.toggle("mobile-nav");
+    document.body.classList.toggle("no-scroll");
   });
 
   navigation.addEventListener("click", function (e) {
     const clicked = e.target.closest("a");
     if (!clicked) return;
     navigation.classList.toggle("mobile-nav");
+    document.body.classList.toggle("no-scroll");
   });
-
   window.addEventListener("scroll", function () {
     if (window.scrollY < 200) {
       backToTop.style.display = "none";

@@ -502,6 +502,10 @@ footer {
     height: 15px;
   }
 
+  .no-scroll {
+    overflow: hidden;
+  }
+
   header {
     .wrapper {
       @include d-flex();
