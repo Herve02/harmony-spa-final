@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fdfdfd;
+  color: black;
+  line-height: 1.5;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-inline: 40px;
+}
+.main header .wrapper {
+  padding-inline: 0;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+.main header .back-button {
+  background-color: rgb(78, 19, 47);
+  color: #fdfdfd;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+h1 {
+  grid-column: 1/-1;
+  text-align: center;
+  color: rgb(78, 19, 47);
+  margin-block: 20px;
+}
+
+h2 {
+  color: rgb(78, 19, 47);
+}
+
+p {
+  margin: 5px 0;
+}
+
+.service-category-1 {
+  grid-column: 1/-1;
+}
+
+.cta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 20px;
+  height: 100px;
+  background: rgb(78, 19, 47);
+  margin-block: 20px;
+}
+
+.cta .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta .content p {
+  color: #fdfdfd;
+  font-size: 20px;
+}
+
+.cta .content a {
+  padding: 13px 32px;
+  background: transparent;
+  border: 1px solid #fdfdfd;
+  color: #fdfdfd;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+#contacts .wrapper {
+  padding-inline: 0;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-inline: 20px;
+  }
+}/*# sourceMappingURL=menu.css.map */

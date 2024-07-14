@@ -1,0 +1,110 @@
+$primary-color: #fdfdfd;
+$secondary-color: rgb(78, 19, 47);
+$tertiary-color: #d9d9d9;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+
+  background-color: $primary-color;
+  color: black;
+  line-height: 1.5;
+}
+.main {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-inline: 40px;
+
+  header {
+    .wrapper {
+      padding-inline: 0;
+      max-width: 1200px;
+      margin: 10px auto;
+    }
+
+    .back-button {
+      background-color: $secondary-color;
+      color: $primary-color;
+      border: none;
+      //   border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-family: "DM Sans", sans-serif;
+    }
+  }
+}
+.container {
+  //   padding: 20px;
+  //   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  //   background-size: cover;
+  //   background-position: center;
+  //   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: $secondary-color;
+  margin-block: 20px;
+}
+h2 {
+  color: $secondary-color;
+}
+p {
+  margin: 5px 0;
+}
+
+.service-category-1 {
+  grid-column: 1 / -1;
+}
+
+.cta {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 20px;
+  height: 100px;
+  background: $secondary-color;
+  margin-block: 20px;
+}
+.cta .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta .content p {
+  color: $primary-color;
+  font-size: 20px;
+}
+.cta .content a {
+  padding: 13px 32px;
+  background: transparent;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: 600;
+  margin-left: auto;
+}
+
+#contacts {
+  .wrapper {
+    padding-inline: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-inline: 20px;
+  }
+}
