@@ -127,7 +127,7 @@ header {
   @include d-flex();
 
   .content {
-    width: min(100%, 600px);
+    width: min(100%, 620px);
     @include d-flex();
     flex-direction: column;
     gap: 20px;

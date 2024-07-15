@@ -112,7 +112,7 @@ header .wrapper button {
   justify-content: center;
 }
 .hero .content {
-  width: min(100%, 600px);
+  width: min(100%, 620px);
   display: flex;
   align-items: center;
   justify-content: center;
