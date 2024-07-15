@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+ol li {
+  list-style: none;
+}
+ol li span {
+  color: rgb(78, 19, 47);
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   background-color: #fdfdfd;
@@ -55,7 +62,11 @@ p {
   grid-column: 1/-1;
 }
 
-.cta {
+.cta-cards > * {
+  flex: 1;
+}
+
+.cta, .paymentMethods {
   width: 100%;
   display: flex;
   align-items: center;
@@ -65,14 +76,18 @@ p {
   margin-block: 20px;
 }
 
-.cta .content {
+.cta .content, .paymentMethods .content {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.cta .content p {
+.paymentMethods .content {
+  justify-content: start;
+}
+
+.cta .content p, .paymentMethods .content h3 {
   color: #fdfdfd;
   font-size: 20px;
 }
@@ -88,6 +103,18 @@ p {
   transition: 0.5s;
   font-weight: 600;
   margin-left: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 30px;
+  background: rgb(78, 19, 47);
+  margin-bottom: 20px;
+}
+.title h2 {
+  color: #fdfdfd;
 }
 
 #contacts .wrapper {
