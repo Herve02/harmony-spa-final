@@ -135,4 +135,25 @@ p {
   .main {
     padding-inline: 20px;
   }
+  .cta, .paymentMethods{
+    padding-block: 15px;
+    justify-content: flex-start;
+    
+  }
+}
+@media (max-width: 480px) {
+  .cta, .paymentMethods{
+    height: auto;}
+  .cta .content, .paymentMethods .content{
+    flex-direction: column;
+    align-items: start;
+    justify-content: unset;
+    gap: 10px;
+
+   
+    a{
+      margin-left: unset;
+    }
+
+  }
 }

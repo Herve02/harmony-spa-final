@@ -125,4 +125,22 @@ p {
   .main {
     padding-inline: 20px;
   }
+  .cta, .paymentMethods {
+    padding-block: 15px;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 480px) {
+  .cta, .paymentMethods {
+    height: auto;
+  }
+  .cta .content, .paymentMethods .content {
+    flex-direction: column;
+    align-items: start;
+    justify-content: unset;
+    gap: 10px;
+  }
+  .cta .content a, .paymentMethods .content a {
+    margin-left: unset;
+  }
 }/*# sourceMappingURL=menu.css.map */
