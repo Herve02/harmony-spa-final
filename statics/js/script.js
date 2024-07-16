@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   backToTop.addEventListener("click", function (e) {
-    console.log("clicked");
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 });
