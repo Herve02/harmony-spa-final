@@ -71,7 +71,7 @@ bookingForm.addEventListener('submit', function(event) {
     }
 
     // WhatsApp phone number (replace with the actual phone number)
-    const whatsappNumber = '250785234933';
+    const whatsappNumber = '+250783074328';
 
     // Create the WhatsApp message
     const whatsappMessage = `Booking Request:
